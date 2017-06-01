@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.jiao.myapplication.calendar.MonthView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content"
+                                                   app:dayItemWidth="48dp"
+                                                   app:dayTitleItemHeight="48dp"
+                                                   app:dayItemHeight="48dp"
+                                                   app:dayTitleItemWidth="48dp"
+                                                   app:selectedOvalRadius="20dp"
+                                                   app:selectedOvalColor="#50E4C2"
+
+                                                   app:dayTitleTextSize="12sp"
+                                                   app:dayTextSize="16sp"
+                                                   app:pregnantTextSize="7sp"
+                                                   app:textColor="@android:color/background_dark"
+                                                   app:ableClickTextColor="#50E4C2"
+                                                   app:selectedDayTextSize="16sp"
+                                                   app:selectedPregnantTextSize="7sp"
+                                                   app:selectedTextColor="#ffffff"
+                                                   android:background="#50ff0000">
+
+</com.example.jiao.myapplication.calendar.MonthView>

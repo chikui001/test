@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:mask_layout_anchor="2"
+                app:mask_layout_anchorId="@+id/btn_2"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp">
+    <TextView
+            android:id="@+id/content_tv"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_alignParentStart="true"
+            android:text="邀请家庭成员绑定麻麻的萌动账号,家人\n一键关联后,可在萌动微信号实时查看宝\n宝的每次测试数据~"
+            android:background="@drawable/guide_back_new"/>
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/layer_list_guide"
+               android:layout_below="@+id/content_tv"/>
+
+</RelativeLayout>

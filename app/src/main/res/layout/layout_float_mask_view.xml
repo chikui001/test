@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.jiao.myapplication.views.jiao.MaskView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                    android:id="@+id/maskview"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent">
+<include layout="@layout/main_top_actionbar"/>
+</com.example.jiao.myapplication.views.jiao.MaskView>

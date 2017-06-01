@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MonthView">
+        <!--波浪的颜色-->
+        <attr name="dayItemHeight" format="dimension"/>
+        <!--容器圆的颜色-->
+        <attr name="dayItemWidth" format="dimension"/>
+        <!--波浪的纵向宽度-->
+        <attr name="dayTitleItemHeight" format="dimension"/>
+        <!--圆里头显示的周期数-->
+        <attr name="dayTitleItemWidth" format="dimension"/>
+
+        <attr name="selectedOvalRadius" format="dimension"/>
+
+        <attr name="selectedOvalColor" format="color"/>
+
+        <attr name="dayTitleTextSize" format="dimension"/>
+
+
+        <attr name="dayTextSize" format="dimension"/>
+        <attr name="pregnantTextSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="ableClickTextColor" format="color"/>
+
+        <attr name="selectedDayTextSize" format="dimension"/>
+        <attr name="selectedPregnantTextSize" format="dimension"/>
+        <attr name="selectedTextColor" format="color"/>
+    </declare-styleable>
+
+</resources>

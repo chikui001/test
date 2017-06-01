@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WaterWaveViewAppearance">
+        <!--波浪的颜色-->
+        <attr name="wave_color" format="color"/>
+        <!--容器圆的颜色-->
+        <attr name="container_color" format="color"/>
+        <!--波浪的纵向宽度-->
+        <attr name="wave_sin_A" format="dimension"/>
+        <!--圆里头显示的周期数-->
+        <attr name="wave_cycle_number_in_container" format="float"/>
+    </declare-styleable>
+
+</resources>

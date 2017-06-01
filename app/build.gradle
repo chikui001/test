@@ -1,0 +1,98 @@
+apply plugin: 'com.android.application'
+
+android {
+    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.example.jiao.myapplication"
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+
+        ndk {
+            abiFilters "armeabi", "x86"
+//            abiFilters "armeabi", "armeabi-v7a"
+        }
+    }
+
+
+}
+
+repositories {
+
+    flatDir {
+        dirs 'libs' //this way we can find the .aar file in libs folder
+    }
+}
+
+
+dependencies {
+
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile project(':ef_android_common')
+    compile project(':ef_mengdong_pattern')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+//    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.android.support:design:23.4.0'
+//    compile 'com.sothree.slidinguppanel:library:3.3.0'
+//    compile 'in.srain.cube:ultra-ptr:1.0.11'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.1.17'
+//    compile 'com.android.support:cardview-v7:23.2.0'
+    // memory leak lib
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
+    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
+//    compile(name: 'library-release', ext: 'aar')
+//    compile 'com.commit451:PhotoView:1.2.4'
+    compile 'org.greenrobot:eventbus:3.0.0'
+
+    compile 'com.google.android:flexbox:0.2.3'
+//    compile 'me.grantland:autofittextview:0.2.+'
+
+    compile 'com.github.bumptech.glide:glide:3.5.2'
+
+    compile 'com.facebook.fresco:fresco:0.12.0'
+
+    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+
+// ButterKnife
+    compile 'com.jakewharton:butterknife:7.0.1'
+//  rxjava 本例中线程切换要用到，代替handler
+    compile 'io.reactivex:rxjava:1.1.6'
+    compile 'io.reactivex:rxandroid:1.2.1'
+
+    // Dependencies for android tests which reside in the "androidTest" src folder.
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestCompile 'com.android.support.test.espresso:espresso-intents:2.2.2'
+    androidTestCompile 'com.android.support.test.espresso:espresso-contrib:2.2.2'
+    // Resolve conflicts between main and test APK:
+    androidTestCompile "com.android.support:support-annotations:${android_support_lib_version}"
+    androidTestCompile "com.android.support:recyclerview-v7:${android_support_lib_version}"
+    androidTestCompile "com.android.support:design:${android_support_lib_version}"
+
+    // Dependencies for unit tests which reside in the "tests" src folder.
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.hamcrest:hamcrest-core:1.3'
+    testCompile 'org.mockito:mockito-core:1.10.8'
+    testCompile 'org.powermock:powermock-api-mockito:1.6.4'
+    testCompile 'org.powermock:powermock-module-junit4-rule-agent:1.6.4'
+    testCompile 'org.powermock:powermock-module-junit4-rule:1.6.4'
+    testCompile 'org.powermock:powermock-module-junit4:1.6.4'
+    testCompile 'org.json:json:20090211'
+
+
+    compile 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+}

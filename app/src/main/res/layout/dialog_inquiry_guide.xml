@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.jiao.myapplication.views.RecyclerViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/inquiry_guide_rvp"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"/>

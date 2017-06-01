@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/start_fl"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center">
+    <ImageView
+            android:id="@+id/happiness_boom_back_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/baoxi_img"/>
+    <ScrollView
+            android:layout_width="182dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="128dp"
+            android:layout_gravity="center_horizontal|top"
+            android:scrollbars="none">
+        <TextView
+                android:id="@+id/description_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textSize="14sp"
+                android:lineSpacingExtra="0.3dp"
+                android:textColor="#5D1A28"
+                android:text="@string/happiness_boom_content"/>
+    </ScrollView>
+
+    <TextView
+            android:id="@+id/jump_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center"
+            android:text="@string/happiness_boom_btn_top"
+            android:textColor="#5D1A28"
+            android:textSize="14sp"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/jump_btn"
+            android:padding="9dp"
+            android:onClick="onClick"
+            android:clickable="true"/>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="36dp">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:text="@string/happiness_boom_btn_bottom_left"
+                  android:textSize="12sp"
+                  android:textColor="#5D1A28"
+                  android:layout_marginRight="8.8dp"
+                  android:lineSpacingExtra="0.3dp"
+                  android:padding="4dp"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:text="@string/happiness_boom_btn_bottom_right"
+                  android:textSize="12sp"
+                  android:textColor="#5D1A28"
+                  android:layout_marginLeft="8.8dp"
+                  android:lineSpacingExtra="0.3dp"
+                  android:padding="4dp"/>
+    </LinearLayout>
+
+</FrameLayout>

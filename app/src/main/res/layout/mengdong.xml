@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.jiao.myapplication.views.MengdongView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:id="@+id/mengdong_progress_iv"
+                                                   android:layout_width="wrap_content"
+                                                   android:layout_height="wrap_content"
+                                                   android:background="@drawable/mengdong_progress_back"
+                                                   android:src="@drawable/mengdong_animation_list"
+                                                   android:layout_gravity="center_horizontal"/>

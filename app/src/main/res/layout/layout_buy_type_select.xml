@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2016. ExtantFuture Inc. All Rights Reserved. -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="@color/color_FFFFFF"
+                android:layout_height="76dp">
+
+    <ImageView
+            android:id="@+id/payTypeImg"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/wechat_pay"/>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/payTypeImg"
+            android:layout_marginLeft="14dp"
+            android:orientation="vertical">
+        <TextView
+                android:id="@+id/payTypeNameTv"
+                android:layout_width="wrap_content"
+                android:textColor="@color/color_4A4A4A"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:textSize="16sp"
+                android:text="微信支付"/>
+        <TextView
+                android:id="@+id/payTypeDescTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="#ABABBA"
+                android:text="推荐安装微信客户端的用户使用"/>
+    </LinearLayout>
+
+    <CheckBox
+            android:id="@+id/payTypeCheckbox"
+            style="@style/buy_item_checkbox"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:checked="false"/>
+</RelativeLayout>

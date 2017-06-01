@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <LinearLayout
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+        <View android:id="@+id/vertical_top_line_view"
+              android:layout_width="3dp"
+              android:layout_height="21.3dp"
+              android:background="#DBDCDD"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shape_oval_50e3c2_encircle_t"/>
+        <View android:id="@+id/vertical_bottom_line_view"
+              android:layout_width="3dp"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:background="#DBDCDD"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#BDBDBD"
+                android:text="校验完成，设备完好，退款进行中，账户余额会在7个工作日内返回原付款账户"
+                android:layout_marginRight="13.3dp"
+                android:layout_marginTop="15.7dp"
+                android:lineSpacingExtra="3.3dp"/>
+        <TextView
+                android:id="@+id/b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:background="#ff0000"/>
+        <View android:id="@+id/horizontal_bottom_line_view"
+              android:layout_width="match_parent"
+              android:layout_height="0.3dp"
+              android:background="#DBDCDD"/>
+    </LinearLayout>
+</LinearLayout>

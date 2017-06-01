@@ -1,0 +1,41 @@
+<resources>
+    <string name="minutes_colon_seconds">%1$02d:%2$02d</string>
+    <string name="app_name">AutoFitTextView</string>
+
+    <string name="input_hint">text</string>
+    <string name="label_normal">Normal:</string>
+    <string name="label_autofit">Autofit:</string>
+
+    <string name="example">This is an example</string>
+    <string name="rental_contract_return_notice">选择一键退货后的工作日48小时内会有客服人员与您进行沟通，您也可以致电<Data>
+        <![CDATA[ <font color="#50E3C2">010-999999</font> ]]> </Data>与我们沟通退货细节哟~
+    </string>
+    <string name="happiness_boom_content">Hi老朋友,你和宝宝平安见面了吗?相伴一场,全体萌动人为你的最终胜利感到高兴!我们给你准备了宝宝独家庆生贺卡,满满都是爱!
+    </string>
+    <string name="happiness_boom_btn_top">定制你与宝宝的独家贺卡</string>
+    <string name="happiness_boom_btn_bottom_left">还没发动</string>
+    <string name="happiness_boom_btn_bottom_right">不再弹出</string>
+
+    <string name="test">%1$d%%</string>
+
+
+    <string name="onstoptask">onStopTask</string>
+    <string name="onstarttask">onStartTask</string>
+    <string name="defaultparamtext">task params will show up here.</string>
+    <string name="schedule_job_button_text">Schedule Job</string>
+    <string name="cancel_all_jobs_button_text">Cancel all</string>
+    <string name="finish_job_button_text">taskFinished</string>
+    <string name="idle_mode_text">Requires device in idle mode.</string>
+    <string name="charging_caption">Charging:</string>
+    <string name="charging_text">Requires device plugged in.</string>
+    <string name="idle_caption">Idle:</string>
+    <string name="persisted_caption">Persisted:</string>
+    <string name="constraints">Constraints</string>
+    <string name="connectivity">Connectivity:</string>
+    <string name="any">Any</string>
+    <string name="unmetered">WiFi</string>
+    <string name="timing">Timing:</string>
+    <string name="delay">Delay:</string>
+    <string name="deadline">Deadline:</string>
+    <string name="persisted_mode_text">Persisted:</string>
+</resources>

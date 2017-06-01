@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/root_view"
+             android:orientation="vertical"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/purchase_active_icon"
+            android:layout_gravity="center"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/active_btn"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"/>
+    <TextView
+            android:id="@+id/test_tv"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="7sp"/>
+</FrameLayout>

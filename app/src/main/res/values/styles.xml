@@ -1,0 +1,81 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="foodRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/food_rating_bar_full</item>
+        <item name="android:maxHeight">27dip</item>
+        <item name="android:minHeight">27dip</item>
+        <item name="android:maxWidth">50dip</item>
+        <item name="android:minWidth">50dip</item>
+    </style>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <style name="chatContentStyle">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textColor">#8A000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="Full" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#10000000</item>
+    </style>
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 窗口的背景颜色 -->
+        <!--<item name="android:windowBackground">@android:color/white</item>-->
+        <!-- toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">@color/color_50E3C2</item>
+        <!-- 系统状态栏颜色 -->
+        <item name="colorPrimaryDark">#10000000</item>
+        <!-- 主要字体颜色 -->
+        <item name="android:textColorPrimary">@color/color_FFFFFF</item>
+        <!-- menu title颜色，但是BaseTheme是继承与NoActionBar的，所以toolbar样式需要设置theme:ActionBar -->
+        <item name="android:actionMenuTextColor">@color/color_FFFFFF</item>
+        <!-- toolbar－menu颜色-->
+        <item name="actionMenuTextColor">@color/color_FFFFFF</item>
+        <!-- 解决启动Android应用程序时出现白屏或者黑屏的问题-->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="subtitleTextColor">@color/color_FFFFFF</item>
+        <item name="titleTextColor">@color/color_FFFFFF</item>
+    </style>
+    <style name="TransparentBackDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.BaseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+    </style>
+    <style name="TranslucentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Note that we use the base animation style here (that is no
+             animations) because we really have no idea how this kind of
+             activity will be used. -->
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="buy_item_checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/buy_item_checkbox_selector</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="textColor">#ffffff</item>
+    </style>
+</resources>

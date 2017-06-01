@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaskView_Layout">
+        <attr name="mask_layout_anchor" format="integer"/>
+        <attr name="mask_layout_anchorId" format="integer"/>
+    </declare-styleable>
+</resources>

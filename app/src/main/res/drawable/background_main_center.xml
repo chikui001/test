@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 空心圆角矩形 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+    <size android:width="200dp" android:height="200dp"/>
+    <gradient
+            android:startColor="#75e2a0"
+            android:centerColor="#4fe2c1"
+            android:endColor="#51dbed"
+            android:angle="315"/>
+</shape>

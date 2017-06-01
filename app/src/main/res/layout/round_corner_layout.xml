@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70FF0000">
+    <LinearLayout
+            android:id="@+id/root_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+        <com.example.jiao.myapplication.RoundedCornerLayout
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="#80000000">
+            <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/background_main_center"/>
+        </com.example.jiao.myapplication.RoundedCornerLayout>
+        <com.example.jiao.myapplication.RoundedCornerLayoutTwo
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="#80000000">
+            <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/background_main_center"/>
+        </com.example.jiao.myapplication.RoundedCornerLayoutTwo>
+        <TextView
+                android:id="@+id/text"
+                android:layout_width="200dp"
+                android:layout_height="200dp"/>
+    </LinearLayout>
+</ScrollView>
